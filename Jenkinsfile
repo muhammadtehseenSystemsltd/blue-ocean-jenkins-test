@@ -7,5 +7,12 @@ pipeline {
       }
     }
 
+    stage('Bees Bees') {
+      steps {
+        echo 'Boo Boo'
+        echo 'Beeing Bong'
+      }
+    }
+
   }
 }
